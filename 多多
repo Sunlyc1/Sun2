@@ -19,3 +19,5 @@ obj.data.user.vipinfo.level='7';
 obj.data.user.vipinfo.valid=true;//修改为true
 obj.data.user.vipinfo.expiredTime='1775558400';
 
+body = JSON.stringify(obj); // 重新打包回json字符串
+$done({body}); // 结束修改
