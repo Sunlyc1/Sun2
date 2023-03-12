@@ -8,4 +8,4 @@
 http-response https://api.duoduo.pro/user/personal/information script-path=https://raw.githubusercontent.com/Sunlyc1/Sun2/main/duoduovip.js，requires-body=1，max-size=0
 
 [MITM]
-hostname  =  nz-api.duoduo.pro 
+hostname = nz-api.duoduo.pro 
