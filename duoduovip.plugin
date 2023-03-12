@@ -4,8 +4,10 @@
 #！homepage=https：//github.com/Sunlyc1
 #！作者=Sunlyc1
 [Script]
-
-http-response https://api.duoduo.pro/user/personal/information script-path=https://raw.githubusercontent.com/Sunlyc1/Sun2/main/duoduovip.js,requires-body=1,max-size=0
-
+/*
+http-response ^http://(.+).(lrts|duoduo).(me|pro)(/v2/api/user/vipinfo|/a.p|/valid/v2/user/valid)requires-body=true, script-path=https://raw.githubusercontent.com/Sunlyc1/Sun2/main/duoduovip.js
+http-response ^https?:\/\/data\.rrmj\.level\/api\user\?.+$ script-path=https://raw.githubusercontent.com/Sunlyc1/Sun2/main/duoduovip1.js
+http-response ^http://api.duoduo.pro/data/user/viplnfo/level/expiredTime.+$ script-path=https://raw.githubusercontent.com/Sunlyc1/Sun2/main/duoduovip2.js
+*/
 [MITM]
 hostname = nz-api.duoduo.pro 
