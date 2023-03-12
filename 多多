@@ -1,5 +1,10 @@
-[Script]
+#!name=多多视频
+#!desc=多多破vip
+#!homepage=https://github.com/deezertidal
+#!author=NobyDa
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/baiducloud.png
 
+[Script]
 http-response https://api.duoduo.pro/user/personal/information script-path=https://raw.githubusercontent.com/Sunlyc1/Sun2/main/多多, requires-body=1,max-size=0
  
 
@@ -15,5 +20,3 @@ obj.data.user.vipInfo.expiredTime =  1776307200
 
 body = JSON.stringify(obj);
 $done({body});
-
-
