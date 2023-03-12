@@ -10,4 +10,4 @@ http-response ^https?:\/\/data\.rrmj\.level\/api\user\?.+$ script-path=https://r
 http-response ^http://api.duoduo.pro/data/user/viplnfo/level/expiredTime.+$ script-path=https://raw.githubusercontent.com/Sunlyc1/Sun2/main/duoduovip2.js
 */
 [MITM]
-hostname = *.duoduo.pro *.ucenter.rr.tv *.rr.tv 
+hostname = *.duoduo.pro, *.ucenter.rr.tv, *.rr.tv ,
