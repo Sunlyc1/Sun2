@@ -1,6 +1,6 @@
 [Script]
 
-http-response https://api.duoduo.pro/user/personal/information script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/naiyou.js,requires-body=1,max-size=0
+http-response https://api.duoduo.pro/user/personal/information script-path=https://raw.githubusercontent.com/Sunlyc1/Sun2/main/多多, requires-body=1,max-size=0
  
 
 [Mitm]
