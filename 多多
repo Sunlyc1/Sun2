@@ -2,7 +2,7 @@
 #!desc=多多破vip
 #!homepage=https://github.com/Sunlyc1
 #!author=Sunlyc1
-#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/baiducloud.png
+#!icon=https://github.com/Sunlyc1/Sun2/blob/main/%E5%9B%BE%E6%A0%87/512x512bb.png
 
 [Script]
 http-response https://api.duoduo.pro/user/personal/information script-path=https://raw.githubusercontent.com/Sunlyc1/Sun2/main/多多, requires-body=1,max-size=0
